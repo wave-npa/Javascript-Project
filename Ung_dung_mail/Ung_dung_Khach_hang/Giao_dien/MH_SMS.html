@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Liên hệ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    input[type="text"],
+    input[type="number"] {
+        width: 20rem;
+        border: none;
+        border-bottom: 1px solid #f63;
+    }
+</style>
+
+<body style="background-color: black">
+    
+    <div class="container-fluid" id="Th_Cua_hang"></div>
+            <div class="container-fluid">
+                    <div class="btn btn-outline-danger btn-block" id="Th_Thong_bao">
+                        LIÊN HỆ VỚI CHÚNG TÔI
+                    </div>
+                </div>
+    </div>
+    <div class="container-fluid btn text-left" id="Th_Chuc_nang">
+        <button type="button" class="btn btn-success" id="Th_Dong_y">
+            Gởi tin
+        </button>
+        <button type="button" class="btn btn-danger" onclick="window.location='MH_Danh_sach_Dien_thoai.html'">
+            Bỏ qua
+        </button>
+    </div>
+
+    <div class="container" style="margin-top: 2rem">
+
+        <div class="row" id="Th_Lien_he">
+            <div class="col-lg-6" style="width:40rem">
+                <div class="form-group">
+                    <label for="Th_So_dien_thoai">Số điện thoại </label>
+                    <input type="text" class="form-control" id="Th_SDT" value="+84838301003" disabled>
+                </div>
+            </div>
+            <div class="col-lg-6" style="width:40rem">
+                <div class="form-group">
+                    <label for="Th_Tieu_de">Nội dung</label>
+                    <input type="text" class="form-control" id="Th_Noi_dung" placeholder="Nhập nội dung">
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="../Xu_ly/Xu_ly_3L.js"></script>
+    <script src="../ckeditor/ckeditor.js"></script>
+    <script>
+        Cua_hang = Doc_Thong_tin_Cua_hang();
+        Xuat_Thong_tin_Cua_hang(Cua_hang, Th_Cua_hang)
+        Th_Dong_y.onclick = () => {
+            let noi_dung=Th_Noi_dung.value
+            let Kq=SMS_Lien_he(noi_dung)
+            if (Kq == "OK") {
+                Th_Thong_bao.innerHTML = `Cám ơn bạn đã gửi tin nhắn. Chúng tôi sẽ sớm trả lời thư của bạn`
+            } else {
+                Th_Thong_bao.innerHTML = `gửi tin nhắn bị lỗi. Liên hệ với Chúng tôi qua đường dây nóng: 0973777999. Cám ơn`
+            }
+
+
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>
