@@ -1,0 +1,182 @@
+<h2 class="text-primary">Terms and Conditions</h2><br>
+
+
+<p class="text-dark">Last updated: August 06, 2019</p>
+
+
+Please read these Terms and Conditions carefully before using the WIP<!--website url--> website 
+
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.<br><br>
+
+
+<h3 class="text-info">Accounts</h3><br>
+
+When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+
+You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
+
+You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.<br><br>
+
+
+<h3 class="text-info">Links To Other Web Sites</h3><br>
+
+Our Service may contain links to third-party web sites or services that are not owned or controlled by WIP<!--Mysite-->.
+
+WIP<!--Mysite--> has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Mysite shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+
+We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.<br><br>
+
+
+<h3 class="text-info">Termination</h3><br>
+
+We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+
+All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+
+We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+
+Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.
+
+All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.<br><br>
+
+
+<h3 class="text-info">Governing Law</h3><br>
+
+These Terms shall be governed and construed in accordance with the laws of WIP<!--city-->, WIP<!--country-->, without regard to its conflict of law provisions.
+
+Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.<br><br>
+
+
+<h3 class="text-info">Changes</h3><br>
+
+We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+
+By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.<br><br>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br><br><br><br>
+
+
+   <h2 class="text-primary">Privacy Policies</h2><br>
+
+
+<p class="text-dark">Last updated: August 06, 2019</p>
+
+Please read these Privacy Policy carefully before using the WIP<!--website url--> website 
+
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <!--The Meme Dealer url--><br><br>
+
+
+<h3 class="text-info">Information Collection And Use</h3><br>
+
+We collect several different types of information for various purposes to provide and improve our Service to you.<br><br>
+
+<h3 class="text-info">Types of Data Collected</h3><br>
+
+<h4>Personal Data</h4>
+
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
+
+<ul>
+<li>Email address</li><li>Cookies and Usage Data</li>
+</ul>
+
+<h4>Usage Data</h4>
+
+We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+
+<h4>Tracking & Cookies Data</h4>
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
+Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
+You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+Examples of Cookies we use:
+<ul>
+    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul><br><br>
+
+<h3 class="text-info">Use of Data</h3><br>
+    
+wiki uses the collected data for various purposes:
+<ul>
+    <li>To provide and maintain the Service</li>
+    <li>To notify you about changes to our Service</li>
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the Service</li>
+    <li>To monitor the usage of the Service</li>
+    <li>To detect, prevent and address technical issues</li>
+</ul><br><br>
+
+<h3 class="text-info">Transfer Of Data</h3>
+Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+If you are located outside WIP<!--country--> and choose to provide information to us, please note that we transfer the data, including Personal Data, to WIP<!--country--> and process it there.
+Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+wiki will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.<br><br>
+
+<h3 class="text-info">Disclosure Of Data</h3><br>
+
+<h4>Legal Requirements</h4>
+<p><!--company name--> may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+    <li>To comply with a legal obligation</li>
+    <li>To protect and defend the rights or property of wiki</li>
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+    <li>To protect the personal safety of users of the Service or the public</li>
+    <li>To protect against legal liability</li>
+</ul><br><br>
+
+<h3 class="text-info">Security Of Data</h3><br>
+The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.<br><br>
+
+<h3 class="text-info">Service Providers</h3><br>
+We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.<br><br>
+
+
+
+<h3 class="text-info">Links To Other Sites</h3><br>
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.<br><br>
+
+
+<h3 class="text-info">Children's Privacy</h3><br>
+Our Service does not address anyone under the age of 18 ("Children").
+We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.<br><br>
+
+
+<h3 class="text-info">Changes To This Privacy Policy</h3><br>
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.<br><br>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br><br><br><br>
+<h2 class="text-danger">Restrictions</h2>
+You are specifically prohibited from all of the following:
+<ul>
+<li>Publishing any Website material in any other media.</li>
+<li>Publishing any inappropriate images or videos like nudity, violent, gore, etc.</li>
+<li>Commit any form of slandering on this Website.</li>
+<li>Selling, sublicensing and/or otherwise commercializing any Website material.</li>
+<li>Publicly performing and/or showing any Website material.</li>
+<li>Using this Website in any way that is or may be damaging to this Website.</li>
+<li>Using this Website in any way that impacts user access to this Website.</li>
+<li>Using this Website contrary to applicable laws and regulations, or in any way may cause harm to the Website, or to any person or business entity.</li>
+<li>Engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website.</li>
+<li>Using this Website to engage in any advertising or marketing.</li>
+<h5 class="text-capitalized text-underline" style="text-decoration: underline;color:red">Have Common Sense</h5>
+</ul><br>
+<h4 class="text-muted">Certain areas of this Website are restricted from being access by you and WIP<!--Company Name--> may further restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID and password you may have for this Website are confidential and you must maintain confidentiality as well.</h4><br><br>
+
+
+
+<h1 class="text-light">Contact Us</h1>
+If you have any questions about this Privacy Policy, please contact us:
+        <li>By GitHub: <!--<h5><a href="https://github.com/wave-npa"></a></h5>-->Here</li>
+          
+        </ul>

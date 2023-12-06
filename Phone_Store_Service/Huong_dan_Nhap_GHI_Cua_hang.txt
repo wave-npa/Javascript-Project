@@ -1,0 +1,38 @@
+﻿MH_NHAP_GHI_Cua_hang.html
+
+<div>Tên Cửa hàng:<input type="text" id="Th_Ten" size="40"></div>
+            <div>Địa chỉ Cửa hàng:<input type="text" id="Th_Dia_chi" size="40"></div>
+            <div>Email Cửa hàng:<input type="text" id="Th_Email" size="40"></div>
+            <div>Điện thoại Cửa hàng:<input type="text" id="Th_Dien_thoai" size="40"></div>
+            <button class="btn btn-danger" id="Th_Dong_y">Ghi </button>
+
+
+<script>
+        var Cua_hang=Doc_Du_lieu_Cua_hang();
+        Xuat_Cua_hang(Cua_hang,Th_Cua_hang);
+        Th_Dong_y.onclick=()=>{
+            var cua_hang_moi={
+                "Ten":Th_Ten.value,
+                "Dia_chi":Th_Dia_chi.value,
+                "Email":Th_Email.value,
+                "Dien_thoai":Th_Dien_thoai.value
+            }
+
+            var Kq=Ghi_Du_lieu_Cua_hang(cua_hang_moi);
+            if(Kq=="OK"){
+                Th_Thong_bao.innerHTML="Ghi dữ liệu Cửa hàng thành công";
+                Xuat_Cua_hang(cua_hang_moi,Th_Cua_hang);
+            }else{
+                Th_Thong_bao.innerHTML="Ghi dữ liệu Cửa hàng Không thành công";
+            }
+        }
+        
+    </script>
+
+
+----------------------------------------------------------------------------------------------------------------
+DV_DU_LIEU
+else if (Ma_so_Xu_ly == "GHI_CUA_HANG") {
+      console.log(Chuoi_Nhan);
+      Chuoi_Kq = "OK"
+    }

@@ -1,0 +1,36 @@
+﻿DICH_VU_DU_LIEU
+b1 Du_lieu_Luu_tru -> tạo tập tin: Dien_thoai.json có nội dung sau
+{
+    "Ten":"SamSung NOTE 8",
+    "Gia_ban":24000000,
+    "He_dieu_hanh":"ANDROID",
+    "Hinh":"ANDROID_1.png"
+}
+
+b2 Xu_ly/XL_LUU_TRU.js
+	2.1 Tạo hàm : 
+	function Doc_Thong_tin_Dien_thoai() {
+  		var Duong_dan = `${Duong_dan_Thu_muc_Du_lieu}/Dien_thoai.json`
+		var Chuoi_Thong_tin = File.readFileSync(Duong_dan, "UTF-8")
+		return JSON.parse(Chuoi_Thong_tin) // Đối tượng
+	}
+	
+	2.2 Lớp XL_LUU_TRU
+	Doc_Du_lieu(){
+      		var Du_lieu={};
+      		Du_lieu.Cua_hang=Doc_Thong_tin_Cua_hang()
+      		Du_lieu.Dien_thoai=Doc_Thong_tin_Dien_thoai()
+      		return Du_lieu
+    	}
+b3 DV_DU_LIEU.js
+
+else if (Ma_so_Xu_ly == "DOC_DIEN_THOAI") {
+      var Du_lieu_Dich_vu=Luu_tru.Doc_Du_lieu()
+      var Dien_thoai=Du_lieu_Dich_vu.Dien_thoai
+      Chuoi_Kq=JSON.stringify(Dien_thoai)
+
+    }
+
+4 Test Service
+
+http://localhost:1000/Ma_so_Xu_ly=DOC_DIEN_THOAI

@@ -1,0 +1,53 @@
+﻿Ung_dung_Bien_Doi_tuong
+
+b1 Xu_ly/Xu_ly_3L.js
+// Xây dựng các hàm
+
+function Doc_Du_lieu_Dien_thoai(){
+  var Tham_so=`Ma_so_Xu_ly=DOC_DIEN_THOAI`
+  var Dia_chi_Xu_ly = `${Dia_chi_Dich_vu}?${Tham_so}`
+  var Xu_ly_HTTP = new XMLHttpRequest() 
+  Xu_ly_HTTP.open("POST", Dia_chi_Xu_ly, false) // Lập trình Đồng bộ
+  Xu_ly_HTTP.send()
+  var Chuoi_JSON = Xu_ly_HTTP.responseText
+  if(Chuoi_JSON!="")
+    return JSON.parse(Chuoi_JSON) 
+}
+
+// Xuất Điện thoại
+function Xuat_Dien_thoai(Dien_thoai,Th_Cha){
+  var chuoi_html=`
+  <div class="card" style="width:20rem">
+      <img class="card-img-top" src="${Dia_chi_Media}/${Dien_thoai.Hinh}" alt="">
+      <div class="card-body">
+          <h4 class="card-title">${Dien_thoai.Hinh}</h4>
+          <p class="card-text">Giá: ${Dien_thoai.Gia_ban.toLocaleString()} </p>
+          Hệ điều hành: ${Dien_thoai.He_dieu_hanh}
+      </div>
+  </div>
+  `
+  Th_Cha.innerHTML=chuoi_html;
+
+}
+
+Giao_dien/MH_Doc_Dien_thoai.htm
+
+<div class="container-fluid">
+        <fieldset class="border m-2 p-2">
+            <legend>THÔNG TIN ĐIỆN THOẠI</legend>
+            <div id="Th_Dien_thoai"></div>
+            
+        </fieldset>
+        
+</div>
+
+<script src="../Xu_ly/Xu_ly_3L.js"></script>
+
+<script>
+        var Cua_hang=Doc_Du_lieu_Cua_hang();
+        var Dien_thoai=Doc_Du_lieu_Dien_thoai();
+        console.log(Dien_thoai);
+        console.log(Cua_hang);
+        Xuat_Cua_hang(Cua_hang,Th_Cua_hang)
+        Xuat_Dien_thoai(Dien_thoai,Th_Dien_thoai)
+</script>

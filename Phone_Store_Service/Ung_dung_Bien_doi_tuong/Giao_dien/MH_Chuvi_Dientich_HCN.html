@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ứng dụng Biến Đối tượng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <img src="../Media/PET.png" class="btn" />
+        <div class="text-center btn btn-outline-primary">MÔ HÌNH - KỸ THUẬT - CÔNG NGHỆ
+            <br>
+            <small> ĐƠN GIẢN</small>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="btn btn-outline-danger btn-block" id="Th_Thong_bao">
+            KHUNG THÔNG BÁO
+        </div>
+    </div>
+    <div class="container-fluid">
+        <fieldset class="border m-2 p-2">
+            <legend>
+                <h4>DIỆN TÍCH CHU VI HÌNH CHỮ NHẬT</h4>
+            </legend>
+            <table style="width:500px">
+
+                <tr>
+                    <td style="width:10rem ">Nhập chiều dài</td>
+                    <td><input type="text" id="Th_Dai" placeholder="Nhập chiều dài"/></td>
+                </tr>
+                <tr>
+                    <td>Nhập chiều rộng</td>
+                    <td><input type="text" id="Th_Rong" placeholder="Nhập chiều rộng" /></td>
+                </tr>
+                <tr>
+                    <td>Diện tích</td>
+                    <td id="Th_Dien_tich">[Xuất Diện tích]</td>
+                </tr>
+                <tr>
+                    <td>Chu vi</td>
+                    <td id="Th_Chu_vi">[Xuất Diện tích]</td>
+                </tr>
+                <tr style="text-align: center">
+                    <td colspan="2">
+                        <button class="btn btn-sm btn-primary" id="Th_Dong_y">Tính toán</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        // Cách 1 ------------------------------------
+        class Hinh_Chu_Nhat {
+            constructor(d, r) {
+                this.Dai = d
+                this.Rong = r
+            }
+            Chu_vi() {
+                var cv = (this.Dai + this.Rong) * 2
+                return cv
+            }
+            Dien_tich() {
+                var dt = this.Dai * this.Rong
+                return dt
+            }
+
+            Thong_tin(){
+                var chuoi_thong_tin=`Đây là hình chữ nhật: chiều dài: ${this.Dai} - chiều rộng: ${this.Rong}`
+                return chuoi_thong_tin;
+            }
+            
+            
+            static CHU_VI(d,r){
+                var cv = (d + r) * 2
+                return cv
+            }
+
+            static DIEN_TICH(d,r){
+                var cv = (d + r) * 2
+                return cv
+            }
+            
+            
+        }
+
+        
+        /*
+        var HCN =new Hinh_Chu_Nhat(20,5);
+        console.log(HCN.Chu_vi())
+        // Gọi static
+        var cv=Hinh_Chu_Nhat.CHU_VI(50,5);
+        console.log(cv);
+        */
+        // Cách 2 -----------------------------------------
+        var HCN={}
+        HCN.Dai=20
+        HCN.Rong=5
+        // OR 
+        /*
+        var HCN = {
+            "Dai": 20,
+            "Rong": 5
+        }
+        */
+        HCN.Chu_vi = ()=> {
+            return (HCN.Dai + HCN.Rong) * 2
+        }
+
+        HCN.Dien_tich = () => {
+            return (HCN.Dai * HCN.Rong)
+        }
+        // Test
+        console.log(HCN.Dien_tich())
+    </script>
+
+</body>
+
+</html>

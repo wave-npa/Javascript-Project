@@ -1,0 +1,3 @@
+<h5 class= "whitetext">&nbsp;&nbsp;&nbsp;&nbsp;We have a wide variety of phone brands such as <a href="https://www.samsung.com/vn/">Samsungs</a>, <a href="https://www.apple.com/vn/iphone/">Iphones</a> and so on
+<h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here is what you are expected to see in our site: <h5/>
+

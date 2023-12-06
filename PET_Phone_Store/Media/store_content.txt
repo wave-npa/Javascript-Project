@@ -1,0 +1,43 @@
+<div class="card float-left m-5" style="width:18rem">
+            <img class="card-img-top" src="../Media/ANDROID_1.png" alt="" height="285rem">
+            <div class="card-body">
+              <h4 class="card-title">Samsung</h4>
+              <p class="card-text d-none">Android</p>
+            </div>
+            <div class="card-footer">
+              <button id="Th_Download_Samsung1" class="btn btn_sm btn-primary"><i class="fa fa-download" aria-hidden="true"></i> Download</button>
+              <a href="#" class="btn btn-sm btn-info">
+                <i class="fa fa-search"></i> Source
+              </a>
+            </div>
+          </div>
+
+<div class="card float-left m-5" style="width:18rem">
+            <img class="card-img-top" src="../Media/ANDROID_4.png" alt=" "height="285rem">
+            <div class="card-body">
+              <h4 class="card-title">HTC</h4>
+              <p class="card-text d-none">Android</p>
+            </div>
+            <div class="card-footer">
+              <button id="Th_Download_HTC1" class="btn btn_sm btn-primary"><i class="fa fa-download" aria-hidden="true"></i> Download</button>
+              <a href="#" class="btn btn-sm btn-info">
+                <i class="fa fa-search"></i> Source
+              </a>
+            </div>
+          </div>
+
+<div class="card float-left m-5" style="width:18rem"/>
+            <img class="card-img-top" src="../Media/IPHONE_1.jpg" alt="" height="285rem">
+            <div class="card-body">
+              <h4 class="card-title">Iphone 10</h4>
+              <p class="card-text d-none">Iphone</p>
+            </div>
+            <div class="card-footer">
+              <button id="Th_Download_Iphone1" class="btn btn_sm btn-primary"><i class="fa fa-download" aria-hidden="true"></i> Download</button>
+              <a href="#" class="btn btn-sm btn-info">
+                <i class="fa fa-search"></i> Source
+              </a>
+            </div>
+          </div>
+
+          
